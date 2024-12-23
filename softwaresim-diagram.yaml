@@ -1,0 +1,819 @@
+mouseWheel:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - iconCss: fa fa-cogs
+      id: edit
+      target: .e-elementcontent
+      text: Edit
+    - iconCss: fa fa-crosshairs
+      id: callout
+      target: .e-elementcontent
+      text: Callout To
+    - iconCss: fa fa-font
+      id: increaseFontSize
+      target: .e-elementcontent
+      text: Increase font size ↑
+    - iconCss: fa fa-font
+      id: decreaseFontSize
+      target: .e-elementcontent
+      text: Decrease font size ↓
+    - iconCss: fa fa-tint
+      id: fill
+      target: .e-elementcontent
+      text: Fill
+    - iconCss: fa fa-lightbulb-o
+      id: highlight
+      target: .e-elementcontent
+      text: Highlight
+    - iconCss: fa fa-compress
+      id: collapseToSquare
+      target: .e-elementcontent
+      text: Collapse to square
+    - iconCss: fa fa-compress
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      text: Collapse to named square
+    - iconCss: fa fa-compress
+      id: collapseToCircle
+      target: .e-elementcontent
+      text: Collapse to circle
+    - iconCss: fa fa-expand
+      id: expand
+      target: .e-elementcontent
+      text: Expand
+    - iconCss: fa fa-angle-double-up
+      id: front
+      target: .e-elementcontent
+      text: Bring to front
+    - iconCss: fa fa-angle-up
+      id: forward
+      target: .e-elementcontent
+      text: Bring forward
+    - iconCss: fa fa-angle-down
+      id: backward
+      target: .e-elementcontent
+      text: Send backward
+    - iconCss: fa fa-angle-double-down
+      id: back
+      target: .e-elementcontent
+      text: Send to back
+    - iconCss: fa fa-times
+      id: remove
+      target: .e-elementcontent
+      text: Remove
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: 207
+  verticalOffset: 67
+addInfo:
+  currencySymbol: $
+  currencyText: USD ($)
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      content: '<div class="c-html" style="background-color: #9E630B;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png);"></div><div
+        class="c-text"><div class="c-title">Hugging Face Spaces</div><div
+        class="c-short-description">Spaces allow you to build and share ML apps
+        easily</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Hugging Face</div></div></div></div></div>'
+      type: HTML
+    addInfo:
+      category: 3
+      color: "#9E630B"
+      controlText: Hugging Face
+      dynamicsViewSettings:
+        - name: Model Repository
+          portsIn:
+            get: fetch
+            put: models
+          portsOut:
+            stored: models
+          type: Storage
+      dynamicsViews:
+        - name: Model Repository
+          status: Idle
+          type: Storage
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Hugging Face
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: Hugging Face Spaces
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Hugging Face
+        processTime: 0
+        processTimeSeconds: 0
+        shortDescription: Spaces allow you to build and share ML apps easily
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face__044448_dhzej2.png
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png
+      latitude: null
+      longitude: null
+      name: Hugging Face
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Hugging Face
+      type: component
+    height: 100
+    id: Hugging FaceXW5CN
+    offsetX: 486
+    offsetY: 348
+    width: 300
+    zIndex: 0
+    outEdges:
+      - Dashed Straight Nondirectional ConnectortOfBG
+      - Straight ConnectorZ9XHt
+      - Straight ConnectorCLqdB
+      - Dashed Straight Nondirectional ConnectorCWJNo
+  - shape:
+      content: '<div class="c-html" style="background-color: #5A821F; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_Black_87_mhcpj8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_a73jyo.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>GPUs</div></div></div>'
+      type: HTML
+    addInfo:
+      category: 0
+      collapsedToCircle: false
+      collapsedToNamedSquare: true
+      collapsedToSquare: false
+      color: "#5A821F"
+      controlText: Nvidia
+      dynamicsViewSettings:
+        - name: Processing Tool
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+          type: Processor
+      dynamicsViews:
+        - AverageProcessingTime: 1
+          name: Processing Tool
+          status: Idle
+          type: Processor
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Nvidia
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: GPUs
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Nvidia
+        processTime: 0
+        processTimeSeconds: 0
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_Black_87_mhcpj8.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia__044448_mn6spy.png
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1705563398/sds_logos/Nvidia_a73jyo.png
+      latitude: null
+      longitude: null
+      name: Nvidia
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Nvidia
+      type: component
+    height: 100
+    id: Nvidiaf0JFI
+    offsetX: 426
+    offsetY: 495
+    width: 100
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorZ9XHt
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #cc6300;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Gradio_Black_87_mxkdr2.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Gradio_sopopl.webp);"></div><div
+        class="c-text"><div class="c-title">Gradio</div><div
+        class="c-short-description">Easy Python-based development of web
+        applications (typically, AI/ML-focused)</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Gradio</div></div></div></div></div>'
+    id: GradioXn0ri
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Gradio
+        shortDescription: Easy Python-based development of web applications (typically,
+          AI/ML-focused)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Gradio
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Gradio
+      editableName: Gradio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Gradio
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Gradio_sopopl.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Gradio__044448_nl26fc.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Gradio_Black_87_mxkdr2.webp
+      color: "#cc6300"
+      controlText: Gradio
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 821
+    offsetY: 302
+    zIndex: 7
+    inEdges:
+      - Dashed Straight Nondirectional ConnectortOfBG
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Docker_Black_87_xpuvlp.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Docker_gnh7eh.webp);
+        border-radius: 50%"></div></div></div>'
+    id: DockerOaGN4
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Docker_gnh7eh.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Docker__044448_env9qq.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Docker_Black_87_xpuvlp.webp
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 708
+    offsetY: 418
+    zIndex: 9
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorCWJNo
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BA5512; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Jupyter_Black_87_uahk2k.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Jupyter_lm2xh2.webp);
+        border-radius: 50%"></div></div></div>'
+    id: Jupytercb6V9
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Jupyter
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Jupyter
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Jupyter
+      editableName: Jupyter
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenRequests: 1
+      name: Jupyter
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Jupyter_lm2xh2.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Jupyter__044448_fyi1ig.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Jupyter_Black_87_uahk2k.webp
+      color: "#BA5512"
+      controlText: Jupyter
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 787
+    offsetY: 448
+    zIndex: 10
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/cloud_tpu_Black_87_ecq3kn.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/cloud_tpu_ysacgu.webp);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Cloud
+        TPU</div></div></div>'
+    id: Google Cloud TPUVGpdo
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud TPU
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud TPU
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud TPU
+      editableName: Cloud TPU
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud TPU
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/cloud_tpu_ysacgu.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/cloud_tpu__044448_af3rac.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/cloud_tpu_Black_87_ecq3kn.webp
+      color: "#3871e0"
+      controlText: Cloud TPU
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 565
+    offsetY: 495
+    zIndex: 12
+    inEdges:
+      - Straight ConnectorCLqdB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BD4043; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Streamlit_Black_87_pzylqh.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Streamlit_vagmmi.webp);
+        border-radius: 50%"></div></div></div>'
+    id: StreamlitrqhPH
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Streamlit
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Streamlit
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Streamlit
+      editableName: Streamlit
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Streamlit
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Streamlit_vagmmi.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Streamlit__044448_utzlds.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Streamlit_Black_87_pzylqh.webp
+      color: "#BD4043"
+      controlText: Streamlit
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 721
+    offsetY: 495
+    zIndex: 14
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Python_A__Black_87_nciqru.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Python_A_sgxbzs.webp);
+        border-radius: 50%"></div></div></div>'
+    id: PythonnVL5B
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 8
+      imgUrl: https://static.softwaresim.com/logos/webp/Python_A_sgxbzs.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Python_A__044448_g32jqq.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Python_A__Black_87_nciqru.webp
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 991
+    offsetY: 258
+    zIndex: 16
+connectors:
+  - id: Dashed Straight Nondirectional ConnectortOfBG
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 636
+      y: 327.4
+    targetPoint:
+      x: 671
+      y: 322.6
+    sourceID: Hugging FaceXW5CN
+    targetID: GradioXn0ri
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Straight ConnectorZ9XHt
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 465.59
+      y: 398
+    targetPoint:
+      x: 446.41
+      y: 445
+    sourceID: Hugging FaceXW5CN
+    targetID: Nvidiaf0JFI
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Straight ConnectorCLqdB
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 512.87
+      y: 398
+    targetPoint:
+      x: 538.13
+      y: 445
+    sourceID: Hugging FaceXW5CN
+    targetID: Google Cloud TPUVGpdo
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Dashed Straight Nondirectional ConnectorCWJNo
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 636
+      y: 395.3
+    targetPoint:
+      x: 658
+      y: 402.23
+    sourceID: Hugging FaceXW5CN
+    targetID: DockerOaGN4
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+selectedItems:
+  selectedObjects:
+    - shape:
+        type: HTML
+        content: '<div class="c-html" style="background-color: #cc6300;"><div
+          class="c-container"><div class="c-image-primary"
+          style="background-image:
+          url(https://static.softwaresim.com/logos/webp/Gradio_Black_87_mxkdr2.webp);"></div><div
+          class="c-image-original" style="background-image:
+          url(https://static.softwaresim.com/logos/webp/Gradio_sopopl.webp);"></div><div
+          class="c-text"><div class="c-title">Gradio</div><div
+          class="c-short-description">Easy Python-based development of web
+          applications (typically, AI/ML-focused)</div><div
+          class="c-bottom"><div class="c-hr p-mb-1"></div><div
+          class="c-title-bottom">Gradio</div></div></div></div></div>'
+      id: GradioXn0ri
+      addInfo:
+        functionView:
+          leadTime: 0
+          leadTimeSeconds: 0
+          processTime: 0
+          processTimeSeconds: 0
+          completeAndAccuratePerc: 0
+          activityRatio: 0
+          viewType: metrics
+          name: Gradio
+          shortDescription: Easy Python-based development of web applications (typically,
+            AI/ML-focused)
+        economicView:
+          cpus: 0
+          memory: 0
+          storage: 0
+          networking: 0
+          accelerators: 0
+          other: 0
+          unknown: false
+          totaling: false
+          total: 0
+          viewType: total
+          name: Gradio
+        status: N/A
+        size: sm
+        nodeType: html
+        title: Gradio
+        editableName: Gradio
+        type: component
+        id: ""
+        dynamicsViewSettings:
+          - name: Application
+            type: Storage
+            portsIn:
+              put: deployed
+              get: request
+            portsOut:
+              stored: response
+        dynamicsViews:
+          - type: Storage
+            status: Idle
+            name: Application
+        name: Gradio
+        category: 10
+        imgUrl: https://static.softwaresim.com/logos/webp/Gradio_sopopl.webp
+        imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Gradio__044448_nl26fc.webp
+        imgBlackUrl: https://static.softwaresim.com/logos/webp/Gradio_Black_87_mxkdr2.webp
+        color: "#cc6300"
+        controlText: Gradio
+        selectedDynamicsView: 0
+        latitude: null
+        longitude: null
+      width: 300
+      height: 100
+      offsetX: 821
+      offsetY: 302
+      wrapper:
+        actualSize:
+          width: 300
+          height: 100
+        offsetX: 821
+        offsetY: 302
+      zIndex: 7
+      inEdges:
+        - Dashed Straight Nondirectional ConnectortOfBG
+  height: 100
+  width: 300
+  offsetX: 821
+  offsetY: 302
